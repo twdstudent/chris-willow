@@ -12,6 +12,7 @@ img {
     margin-right: auto;
     margin-top: 30px;
     width: 80%;
+    border: 1px solid white;
 }
 
 .index-wrapper {
@@ -32,14 +33,33 @@ a {
 
 .nav-img {
     display: block;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2px;
     width: 100%;
 }
 
+.nav-background-image {
+    width: 100%;
+    padding: 0px;
+    height: 50vh;
+    background: url('../images/radioweb.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 .navbar {
     background-color: transparent;
+    padding: 0px;
+    margin-top: 0px;
+    border: none;
 }
 
 .navbar-nav {
@@ -60,6 +80,7 @@ a {
 }
 
 ul {
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -73,4 +94,52 @@ ul {
 }
 
 
+/*-- bio --*/
 
+.bio {
+    font-family: "Dosis";
+    color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+
+/*-- footer --*/
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.bottom-logo {
+    font-family: "Dosis";
+    color: white;
+    float: right;
+}
+
+.side-line {
+    border-left: 1px solid white;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 7px;
+    text-align: center;
+    background: #333;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #8c8887;
+}
