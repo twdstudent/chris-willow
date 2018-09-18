@@ -4,22 +4,25 @@ body {
    background-color: #0b0b09;
 }
 
-/*--
-.index-image {
-    width: 100%;
-    height: 100%;
+/*-- index page --*/
+
+img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("../images/logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    margin-top: 30px;
+    width: 80%;
 }
---*/
+
+.index-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/*-- Navigation Bar --*/
 
 a {
     font-family: "Dosis";
@@ -27,27 +30,16 @@ a {
     text-align: center;
 }
 
-.index-page {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-}
-
-img {
+.nav-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: center;
-    width: 60%;
+    margin-top: 2px;
+    width: 100%;
 }
 
-/*-- Navigation Bar --*/
-
 .navbar {
-    background-color: #0b0b09;
+    background-color: transparent;
 }
 
 .navbar-nav {
@@ -56,10 +48,10 @@ img {
 }
 
 .page-links {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 4%;
     margin-top: 25px;
-    width: 20%;
+    width: 15%;
+    padding: 0px;
 }
 
 .container {
@@ -76,16 +68,9 @@ ul {
 .page-links-logo {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
     width: 20%;
-    padding: 35px;
-    background-image: url("../images/logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 10%;
-    text-align: center;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
+
+
+
